@@ -39,7 +39,7 @@ public class PlayerControllerX : MonoBehaviour
             playerRb.AddForce(Vector3.up * floatForce);
         }
 
-        if (transform.position.y > 15)
+        if (transform.position.y > 14)
         {
             isLowEnough = false;
         }
